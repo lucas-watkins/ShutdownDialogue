@@ -13,6 +13,7 @@ class Window : ActionListener {
     private val lockBtn = JButton("Lock")
     private val logoutBtn = JButton("Logout")
     private val shutdownBtn = JButton("Shutdown")
+    private val restartBtn = JButton("Restart")
 
     init {
         frame.setSize(300, 100)
@@ -21,8 +22,9 @@ class Window : ActionListener {
         frame.title = "Shutdown Dialogue"
         frame.isResizable = false
 
-        for (ele in arrayOf(lockBtn, logoutBtn, shutdownBtn)) {
+        for (ele in arrayOf(lockBtn, logoutBtn, shutdownBtn, restartBtn)) {
             frame.add(ele)
+            ele.addActionListener(this)
         }
 
         frame.isVisible = true
@@ -30,7 +32,10 @@ class Window : ActionListener {
 
     override fun actionPerformed(e: ActionEvent) {
       when (e.source) {
-           lockBtn -> runProcess("")
+           lockBtn -> runProcess(Config.get("lock"))
+           logoutBtn -> runProcess(Config.get("logout"))
+           shutdownBtn -> runProcess(Config.get("shutdown"))
+           restartBtn -> runProcess(Config.get("restart"))
       }
     }
 

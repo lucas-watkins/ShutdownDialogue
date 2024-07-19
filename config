@@ -1,3 +1,4 @@
 lock = swaylock
+logout = logout
 shutdown = shutdown now
 restart = reboot
