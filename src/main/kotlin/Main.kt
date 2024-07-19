@@ -5,6 +5,7 @@ import java.awt.event.ActionEvent
 import java.awt.event.ActionListener
 import javax.swing.*
 
+const val configFileName = "config"
 
 class Window : ActionListener {
 
@@ -14,14 +15,16 @@ class Window : ActionListener {
     private val shutdownBtn = JButton("Shutdown")
 
     init {
-        frame.setSize(250, 100)
+        frame.setSize(300, 100)
         frame.defaultCloseOperation = JFrame.EXIT_ON_CLOSE
-        frame.layout = FlowLayout(FlowLayout.LEFT, 10, 10)
+        frame.layout = FlowLayout(FlowLayout.CENTER, 10, 10)
         frame.title = "Shutdown Dialogue"
         frame.isResizable = false
-        frame.add(lockBtn)
-        frame.add(logoutBtn)
-        frame.add(shutdownBtn)
+
+        for (ele in arrayOf(lockBtn, logoutBtn, shutdownBtn)) {
+            frame.add(ele)
+        }
+
         frame.isVisible = true
     }
 

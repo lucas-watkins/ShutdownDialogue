@@ -1,0 +1,3 @@
+lock = swaylock
+shutdown = shutdown now
+restart = reboot
