@@ -16,7 +16,7 @@ class Window : ActionListener {
     private val restartBtn = JButton("Restart")
 
     init {
-        frame.setSize(300, 100)
+        frame.setSize(350, 100)
         frame.defaultCloseOperation = JFrame.EXIT_ON_CLOSE
         frame.layout = FlowLayout(FlowLayout.CENTER, 10, 10)
         frame.title = "Shutdown Dialogue"
@@ -37,6 +37,8 @@ class Window : ActionListener {
            shutdownBtn -> runProcess(Config.get("shutdown"))
            restartBtn -> runProcess(Config.get("restart"))
       }
+
+      frame.dispose()
     }
 
     private fun runProcess(p: String){
