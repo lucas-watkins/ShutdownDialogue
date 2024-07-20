@@ -1,4 +1,4 @@
 lock = swaylock
-logout = logout
+logout = pkill -u $USER
 shutdown = shutdown now
-restart = reboot
+restart = shutdown -r now
