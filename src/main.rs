@@ -4,20 +4,19 @@ use crate::config::{ShutdownCommands};
 use eframe::egui::{Button, Context, CentralPanel, ViewportBuilder};
 use eframe::{App, Frame};
 use std::process::Command;
+use std::process::exit;
 
-#[derive(Default)]
 struct Window {
     shutdown_commands: ShutdownCommands,
 }
 
 impl Window {
     fn exec_command(&self, command: &String) {
-        let result = if cfg!(target_os = "windows") {
-            Command::new("cmd").args(["/C", command]).spawn()
-        } else {
-            Command::new("sh").args(["-c", command]).spawn()
-        };
-        result.expect("Error executing command").wait().unwrap();
+        let command = command.split(" ").collect::<Vec<&str>>();
+        println!("{:?}", command);
+        Command::new(&command[0]).args(&command[1..command.len()]).spawn()
+        .expect("Error executing command").wait().unwrap();
+        exit(0)
     }
 }
 

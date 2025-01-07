@@ -1,6 +1,7 @@
 use serde_json;
 use std::env::current_exe;
 use std::fs;
+use serde_json::Value;
 
 #[derive(Default)]
 pub struct ShutdownCommands {
@@ -29,16 +30,16 @@ impl ShutdownCommands {
                 serde_json::from_str(file.as_str());
 
             if serialization.is_err() {
-                return Self::default();
+                return Self::default()
             }
             let serialization = serialization.unwrap();
 
             Self {
-                shutdown: serialization["shutdown"].to_string(),
-                sleep: serialization["sleep"].to_string(),
-                lock: serialization["lock"].to_string(),
-                logoff: serialization["logoff"].to_string(),
-                restart: serialization["restart"].to_string(),
+                shutdown: serialization["shutdown"].as_str().unwrap().to_string(),
+                sleep: serialization["sleep"].clone().as_str().unwrap().to_string(),
+                lock: serialization["lock"].clone().as_str().unwrap().to_string(),
+                logoff: serialization["logoff"].clone().as_str().unwrap().to_string(),
+                restart: serialization["restart"].clone().as_str().unwrap().to_string(),
                 config_success: true,
             }
         }

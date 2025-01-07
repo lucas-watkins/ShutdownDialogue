@@ -7,10 +7,8 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c4d2b54-4edb-43b4-a50e-5c3b38fb1945" name="Changes" comment="Partially Port to Rust">
+    <list default="true" id="4c4d2b54-4edb-43b4-a50e-5c3b38fb1945" name="Changes" comment="Fully functional in Rust">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/config.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
@@ -30,18 +28,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "lucas-watkins"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;lucas-watkins&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/lucas-watkins/ShutdownDialogue",
-    "accountId": "772a3f50-18ea-4d4c-8c63-bb8858acb584"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/lucas-watkins/ShutdownDialogue&quot;,
+    &quot;accountId&quot;: &quot;772a3f50-18ea-4d4c-8c63-bb8858acb584&quot;
   }
-}]]></component>
+}</component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="kcAAdRN8" />
   </component>
@@ -74,8 +72,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/target/release" />
       <recent name="$PROJECT_DIR$/target/debug" />
+      <recent name="$PROJECT_DIR$/target/release" />
       <recent name="$PROJECT_DIR$/target" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -113,7 +111,8 @@
       <updated>1736112594796</updated>
       <workItem from="1736112596123" duration="7116000" />
       <workItem from="1736122834008" duration="4187000" />
-      <workItem from="1736211344405" duration="4506000" />
+      <workItem from="1736211344405" duration="4699000" />
+      <workItem from="1736221640986" duration="2325000" />
     </task>
     <task id="LOCAL-00001" summary="Partially Port to Rust">
       <option name="closed" value="true" />
@@ -131,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736127010193</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fully functional in Rust">
+      <option name="closed" value="true" />
+      <created>1736215996993</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736215996993</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +146,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Partially Port to Rust" />
-    <option name="LAST_COMMIT_MESSAGE" value="Partially Port to Rust" />
+    <MESSAGE value="Fully functional in Rust" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fully functional in Rust" />
   </component>
 </project>
