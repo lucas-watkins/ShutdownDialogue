@@ -1,7 +1,6 @@
 use serde_json;
 use std::env::current_exe;
 use std::fs;
-use serde_json::Value;
 
 #[derive(Default)]
 pub struct ShutdownCommands {
