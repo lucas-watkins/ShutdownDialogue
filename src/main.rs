@@ -24,33 +24,39 @@ impl Window {
 impl App for Window {
     fn update(&mut self, ctx: &Context, _: &mut Frame) {
         CentralPanel::default().show(ctx, |ui| {
-            ui.heading("Shutdown Options:");
+            if self.shutdown_commands.config_success {
+                ui.heading("Shutdown Options:");
 
-            let shutdown = Button::new("Shutdown");
-            let sleep = Button::new("Sleep");
-            let lock = Button::new("Lock");
-            let logoff = Button::new("Logoff");
-            let restart = Button::new("Restart");
+                let shutdown = Button::new("Shutdown");
+                let sleep = Button::new("Sleep");
+                let lock = Button::new("Lock");
+                let logoff = Button::new("Logoff");
+                let restart = Button::new("Restart");
 
-            ui.add_space(10.);
+                ui.add_space(10.);
 
-            ui.horizontal(|ui| {
-                if ui.add_sized([75., 25.], lock).clicked() {
-                    self.exec_command(&self.shutdown_commands.lock)
-                };
-                if ui.add_sized([75., 25.], logoff).clicked() {
-                    self.exec_command(&self.shutdown_commands.logoff)
-                };
-                if ui.add_sized([75., 25.], sleep).clicked() {
-                    self.exec_command(&self.shutdown_commands.sleep)
-                };
-                if ui.add_sized([75., 25.], restart).clicked() {
-                    self.exec_command(&self.shutdown_commands.restart)
-                };
-                if ui.add_sized([75., 25.], shutdown).clicked() {
-                    self.exec_command(&self.shutdown_commands.shutdown)
-                }
-            })
+                ui.horizontal(|ui| {
+                    if ui.add_sized([75., 25.], lock).clicked() {
+                        self.exec_command(&self.shutdown_commands.lock)
+                    };
+                    if ui.add_sized([75., 25.], logoff).clicked() {
+                        self.exec_command(&self.shutdown_commands.logoff)
+                    };
+                    if ui.add_sized([75., 25.], sleep).clicked() {
+                        self.exec_command(&self.shutdown_commands.sleep)
+                    };
+                    if ui.add_sized([75., 25.], restart).clicked() {
+                        self.exec_command(&self.shutdown_commands.restart)
+                    };
+                    if ui.add_sized([75., 25.], shutdown).clicked() {
+                        self.exec_command(&self.shutdown_commands.shutdown)
+                    }
+                });
+            } else {
+                ui.heading("Invalid Configuration");
+                ui.add_space(10.);
+                ui.label("Please check your configuration file");
+            }
         });
     }
 }
@@ -68,7 +74,7 @@ fn main() {
         },
         Box::new(|_| {
             Ok(Box::<Window>::new(Window {
-                shutdown_commands: ShutdownCommands::default(),
+                shutdown_commands: ShutdownCommands::new(),
             }))
         }),
     )
