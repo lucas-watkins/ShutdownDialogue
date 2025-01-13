@@ -35,10 +35,10 @@ impl ShutdownCommands {
 
             Self {
                 shutdown: serialization["shutdown"].as_str().unwrap().to_string(),
-                sleep: serialization["sleep"].clone().as_str().unwrap().to_string(),
-                lock: serialization["lock"].clone().as_str().unwrap().to_string(),
-                logoff: serialization["logoff"].clone().as_str().unwrap().to_string(),
-                restart: serialization["restart"].clone().as_str().unwrap().to_string(),
+                sleep: serialization["sleep"].as_str().unwrap().to_string(),
+                lock: serialization["lock"].as_str().unwrap().to_string(),
+                logoff: serialization["logoff"].as_str().unwrap().to_string(),
+                restart: serialization["restart"].as_str().unwrap().to_string(),
                 config_success: true,
             }
         }

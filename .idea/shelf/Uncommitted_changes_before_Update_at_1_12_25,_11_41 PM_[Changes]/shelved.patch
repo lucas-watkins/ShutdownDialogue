@@ -1,0 +1,72 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"ALL\" />\n  </component>\n  <component name=\"CargoProjects\">\n    <cargoProject FILE=\"$PROJECT_DIR$/Cargo.toml\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"4c4d2b54-4edb-43b4-a50e-5c3b38fb1945\" name=\"Changes\" comment=\"Fully functional in Rust\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/config.rs\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/config.rs\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main.rs\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main.rs\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ExecutionTargetManager\" SELECTED_TARGET=\"RsBuildProfile:dev\" />\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Rust File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitHubPullRequestSearchHistory\">{\n  &quot;lastFilter&quot;: {\n    &quot;state&quot;: &quot;OPEN&quot;,\n    &quot;assignee&quot;: &quot;lucas-watkins&quot;\n  }\n}</component>\n  <component name=\"GithubPullRequestsUISettings\">{\n  &quot;selectedUrlAndAccountId&quot;: {\n    &quot;url&quot;: &quot;https://github.com/lucas-watkins/ShutdownDialogue&quot;,\n    &quot;accountId&quot;: &quot;772a3f50-18ea-4d4c-8c63-bb8858acb584&quot;\n  }\n}</component>\n  <component name=\"MacroExpansionManager\">\n    <option name=\"directoryName\" value=\"kcAAdRN8\" />\n  </component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 2\n}</component>\n  <component name=\"ProjectId\" id=\"2rE7tR1hjvcqUyJaFVzLz0KmlSB\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;Cargo.Run.executor&quot;: &quot;Run&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.rust.reset.selective.auto.import&quot;: &quot;true&quot;,\n    &quot;git-widget-placeholder&quot;: &quot;master&quot;,\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\n    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,\n    &quot;org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon&quot;: &quot;&quot;,\n    &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;,\n    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\n  }\n}</component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/target/debug\" />\n      <recent name=\"$PROJECT_DIR$/target/release\" />\n      <recent name=\"$PROJECT_DIR$/target\" />\n      <recent name=\"$PROJECT_DIR$\" />\n    </key>\n  </component>\n  <component name=\"RunManager\">\n    <configuration name=\"Run\" type=\"CargoCommandRunConfiguration\" factoryName=\"Cargo Command\">\n      <option name=\"buildProfileId\" value=\"dev\" />\n      <option name=\"command\" value=\"run --package ShutdownDialogue --bin ShutdownDialogue\" />\n      <option name=\"workingDirectory\" value=\"file://$PROJECT_DIR$\" />\n      <envs />\n      <option name=\"emulateTerminal\" value=\"true\" />\n      <option name=\"channel\" value=\"DEFAULT\" />\n      <option name=\"requiredFeatures\" value=\"true\" />\n      <option name=\"allFeatures\" value=\"false\" />\n      <option name=\"withSudo\" value=\"false\" />\n      <option name=\"buildTarget\" value=\"REMOTE\" />\n      <option name=\"backtrace\" value=\"SHORT\" />\n      <option name=\"isRedirectInput\" value=\"false\" />\n      <option name=\"redirectInputPath\" value=\"\" />\n      <method v=\"2\">\n        <option name=\"CARGO.BUILD_TASK_PROVIDER\" enabled=\"true\" />\n      </method>\n    </configuration>\n  </component>\n  <component name=\"RustProjectSettings\">\n    <option name=\"toolchainHomeDirectory\" value=\"$USER_HOME$/.cargo/bin\" />\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"4c4d2b54-4edb-43b4-a50e-5c3b38fb1945\" name=\"Changes\" comment=\"\" />\n      <created>1736112594796</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1736112594796</updated>\n      <workItem from=\"1736112596123\" duration=\"7116000\" />\n      <workItem from=\"1736122834008\" duration=\"4187000\" />\n      <workItem from=\"1736211344405\" duration=\"4699000\" />\n      <workItem from=\"1736221640986\" duration=\"2325000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"Partially Port to Rust\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1736126859047</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1736126859047</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"Partially Port to Rust\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1736127010193</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1736127010193</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"Fully functional in Rust\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1736215996993</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1736215996993</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"4\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"Partially Port to Rust\" />\n    <MESSAGE value=\"Fully functional in Rust\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Fully functional in Rust\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision d7a3577cdeff4b8c1be1721e850c7989c29247c8)
++++ b/.idea/workspace.xml	(date 1736743295053)
+@@ -9,8 +9,6 @@
+   <component name="ChangeListManager">
+     <list default="true" id="4c4d2b54-4edb-43b4-a50e-5c3b38fb1945" name="Changes" comment="Fully functional in Rust">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/config.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.rs" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -58,6 +56,7 @@
+     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+     &quot;RunOnceActivity.rust.reset.selective.auto.import&quot;: &quot;true&quot;,
+     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
++    &quot;last_opened_file_path&quot;: &quot;/home/lucas/Documents/MyScripts/ShutdownDialogue/target/release&quot;,
+     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+@@ -71,6 +70,9 @@
+   }
+ }</component>
+   <component name="RecentsManager">
++    <key name="CopyFile.RECENT_KEYS">
++      <recent name="$PROJECT_DIR$/target/release" />
++    </key>
+     <key name="MoveFile.RECENT_KEYS">
+       <recent name="$PROJECT_DIR$/target/debug" />
+       <recent name="$PROJECT_DIR$/target/release" />
+@@ -112,7 +114,8 @@
+       <workItem from="1736112596123" duration="7116000" />
+       <workItem from="1736122834008" duration="4187000" />
+       <workItem from="1736211344405" duration="4699000" />
+-      <workItem from="1736221640986" duration="2325000" />
++      <workItem from="1736221640986" duration="2477000" />
++      <workItem from="1736270359449" duration="116000" />
+     </task>
+     <task id="LOCAL-00001" summary="Partially Port to Rust">
+       <option name="closed" value="true" />
+@@ -138,7 +141,23 @@
+       <option name="project" value="LOCAL" />
+       <updated>1736215996993</updated>
+     </task>
+-    <option name="localTasksCounter" value="4" />
++    <task id="LOCAL-00004" summary="Fully functional in Rust">
++      <option name="closed" value="true" />
++      <created>1736224037844</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1736224037844</updated>
++    </task>
++    <task id="LOCAL-00005" summary="Fully functional in Rust">
++      <option name="closed" value="true" />
++      <created>1736224107066</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1736224107066</updated>
++    </task>
++    <option name="localTasksCounter" value="6" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
